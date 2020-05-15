@@ -3,7 +3,7 @@ import { render, fireEvent } from '@testing-library/react';
 import App from '../App';
 
 describe('Testando funcionalidade de apagar item selecionado', () => {
-  test('Necessário ter um botão, com o texto Remover, precisa estar desabilitado caso não tenha nenhum item selecionado.', () => {
+  test('Necessário ter um botão, com o texto Remover, e ele precisa estar desabilitado caso não exista nenhum item selecionado', () => {
     const { getByTestId } = render(<App />);
     const btnRemove = getByTestId('id-remove');
     expect(btnRemove).toBeInTheDocument();
@@ -11,7 +11,7 @@ describe('Testando funcionalidade de apagar item selecionado', () => {
     expect(btnRemove.disabled).toBe(true);
   });
 
-  test('Testando selecionando elemento', () => {
+  test('Testando a seleção de elemento', () => {
     const { getByLabelText, getByText, queryByText } = render(<App />);
     const inputTask = getByLabelText('Tarefa:');
     const btnAdd = getByText('Adicionar');
