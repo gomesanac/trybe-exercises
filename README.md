@@ -2,7 +2,7 @@ Esse é um projeto para o conteúdo da semana 16, sobre `RTL`.
 
 ### Antes de iniciar
 
-Crie um fork desse projeto e para isso siga esse [tutorial de como realizar um fork](https://github.com/facebook/create-react-app).
+Crie um fork desse projeto e para isso siga esse [tutorial de como realizar um fork](https://guides.github.com/activities/forking/).
 
 Após feito o fork, clone o repositório criado para o seu computador.
 
@@ -22,7 +22,7 @@ Verifique se as seguintes branchs apareceram:
 
 Observe o que deve ser feito nas instruções para cada exercício.
 
-Após a solução dos exercícios, abra um PR no repositório e se quiser mergear para a master, sinta-se a vontade!
+Após a solução dos exercícios, abra um PR no seu repositório forkado e, se quiser, mergeie para a master, sinta-se a vontade!
 
 **Atenção!** Quando for criar o PR você irá se deparar com essa tela:
 
@@ -44,7 +44,7 @@ Para cada PR realize esse processo.
 
 #### Exercício 1
 
-Descrição do exercício, realize os teste:
+Implemente os testes:
 - Necessário um botão para adicionar a tarefa.
 - Botão precisa conter o texto "Adicionar".
 - Ao ser clicado a tarefa digitada pelo o usuário precisa ser salva.
@@ -55,16 +55,17 @@ Pode adicionar mais testes que achar relevantes para verificar a funcionalidade 
 
 #### Exercício 2
 
-Descrição do exercício, teste a aplicação, atenção ao que o test orienta:
+Teste a aplicação. Atenção ao que o teste orienta:
 
-- Use o array já disponibilizado no código para realizar os testes, cada elemento do array será uma tarefa, simule a adição todas e depois verifique se eles estão aparecendo.
-- Teste apenas o componente Item, ao passar uma string ela precisa aparecer na tela.
+- Use o array já disponibilizado no código para realizar os testes. Cada elemento do array será uma tarefa. Simule a adição de todas e depois verifique se elas estão aparecendo.
+- Teste apenas o componente Item. Ao passar uma string para ele ela precisa aparecer na tela.
 ---
 
 #### Exercício 3 
 
-Diferente dos outros, os testes já estão pronto, sendo necessário criar apenas a funcionalidade.
+Diferente dos outros, os testes já estão prontos, sendo necessário criar apenas as funcionalidades que eles testam.
 
 - Adicionar funcionalidade de selecionar uma task.
-- Botão para apagar a task selecionada.
-- Observe bem como os teste estão escritos, todos devem passar quando terminar a funcionalidade.
+- Adicionar botão para apagar a task selecionada.
+
+Observe bem como os teste estão escritos, todos devem passar quando terminar de implementar a funcionalidade.
