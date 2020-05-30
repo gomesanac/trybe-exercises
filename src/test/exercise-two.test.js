@@ -17,8 +17,8 @@ describe('Teste do campo de input', () => {
       fireEvent.click(button);
 
       expect(getByText(todo)).toBeInTheDocument();
-    })
-  })
+    });
+  });
 });
 
 describe('Teste do componente Item', () => {
@@ -27,5 +27,5 @@ describe('Teste do componente Item', () => {
     const { getByText } = render(<Item content={todo}/>);
 
     expect(getByText(todo)).toBeInTheDocument();
-  })
-})
+  });
+});
