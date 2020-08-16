@@ -26,7 +26,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [x] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [x] 3-4: _HTML Semântico_
-- [x] 3-5: _[Projeto - HTML & CSS](https://deboracosilveira.github.io/dog-page/)_
+- [x] 3-5: _[Projeto - HTML & CSS](https://gomesanac.github.io/projetos/html-css/index.html)_
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -40,11 +40,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
-- [x] 5-1: _[Projeto - Meme Generator](https://deboracosilveira.github.io/meme-generator/)_
-- [x] 5-2: _[Projeto - Arte com Pixels](https://deboracosilveira.github.io/pixels-art/)_
-- [x] 5-3: _[Projeto - Lista de tarefas]()_
-- [x] 5-4: _[Projeto - Adivinhe a Cor](https://deboracosilveira.github.io/color-guess/)_
-- [x] 5-5: _[Projeto - Carta Misteriosa](https://deboracosilveira.github.io/mistery-letter/)_
+- [x] 5-1: _[Projeto - Meme Generator](https://gomesanac.github.io/projetos/meme-generator/index.html)_
+- [x] 5-2: _[Projeto - Arte com Pixels](https://gomesanac.github.io/projetos/pixels-art/index.html)_
+- [x] 5-3: _[Projeto - Lista de tarefas](https://gomesanac.github.io/projetos/todo-list/index.html)_
+- [x] 5-4: _[Projeto - Adivinhe a Cor](https://gomesanac.github.io/projetos/color-guess/index.html)_
+- [x] 5-5: _[Projeto - Carta Misteriosa](https://gomesanac.github.io/projetos/mistery-letter/index.html)_
 
 ## Desenvolvimento Front-end :white_check_mark:
 
@@ -55,7 +55,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 6-3: _CSS Flexbox - Part 1_
 - [x] 6-4: _CSS Flexbox - Part 2_
 - [x] 6-5: _CSS Responsivo - Mobile First_
-- [x] 6-6: _[Projeto - Página inicial do Facebook](https://deboracosilveira.github.io/facebook/)_
+- [x] 6-6: _[Projeto - Página inicial do Facebook](https://gomesanac.github.io/projetos/facebook-page/index.html)_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
@@ -258,6 +258,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
  
 - [x] B-1: _CSS Animations - Part 1_
 - [x] B-2: _CSS Animations - Part 2_
-- [x] B-3: _[Projeto - The Daily Prophet](https://deboracosilveira.github.io/daily-prophet/)_
+- [x] B-3: _[Projeto - The Daily Prophet]()_
 
 # [...]
