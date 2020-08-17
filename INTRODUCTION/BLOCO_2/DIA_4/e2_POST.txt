@@ -1,0 +1,21 @@
+curl -X POST -d "lastname=Gomes" https://httpbin.org/anything
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "lastname": "Gomes"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Content-Length": "14", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.58.0", 
+    "X-Amzn-Trace-Id": "Root=1-5e40a476-51c0374cd94c123be7dee0c5"
+  }, 
+  "json": null, 
+  "method": "POST", 
+  "origin": "201.17.211.124", 
+  "url": "https://httpbin.org/anything"
+}

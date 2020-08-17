@@ -1,0 +1,63 @@
+whois amazon.com.br
+
+% Copyright (c) Nic.br
+%  The use of the data below is only permitted as described in
+%  full by the terms of use at https://registro.br/termo/en.html ,
+%  being prohibited its distribution, commercialization or
+%  reproduction, in particular, to use it for advertising or
+%  any similar purpose.
+%  2020-02-09T21:23:47-03:00
+
+domain:      amazon.com.br
+owner:       Amazon Servicos de Varejo do Brasil Ltda.
+ownerid:     15.436.940/0001-03
+responsible: Heloisa Ribeiro
+country:     BR
+owner-c:     ASVBL
+admin-c:     ASVBL
+tech-c:      ASVBL
+billing-c:   NAB51
+nserver:     pdns1.ultradns.net
+nsstat:      20200209 AA
+nslastaa:    20200209
+nserver:     pdns3.ultradns.org
+nsstat:      20200209 AA
+nslastaa:    20200209
+nserver:     pdns4.ultradns.org
+nsstat:      20200209 AA
+nslastaa:    20200209
+nserver:     pdns5.ultradns.info
+nsstat:      20200209 AA
+nslastaa:    20200209
+nserver:     ns1.p31.dynect.net
+nsstat:      20200209 AA
+nslastaa:    20200209
+nserver:     ns2.p31.dynect.net
+nsstat:      20200209 AA
+nslastaa:    20200209
+created:     19950927 #4152
+changed:     20190508
+expires:     20240927
+status:      published
+
+nic-hdl-br:  ASVBL
+person:      Amazon Servicos de Varejo do Brasil LTDA
+e-mail:      ccops@markmonitor.com
+country:     BR
+created:     20121119
+changed:     20180509
+
+nic-hdl-br:  NAB51
+person:      NameAction do Brasil
+e-mail:      mail@nameaction.com
+country:     BR
+created:     20020619
+changed:     20181011
+
+% Security and mail abuse issues should also be addressed to
+% cert.br, http://www.cert.br/ , respectivelly to cert@cert.br
+% and mail-abuse@cert.br
+%
+% whois.registro.br accepts only direct match queries. Types
+% of queries are: domain (.br), registrant (tax ID), ticket,
+% provider, contact handle (ID), CIDR block, IP and ASN.

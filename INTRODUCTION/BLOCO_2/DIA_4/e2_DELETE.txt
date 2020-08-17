@@ -1,0 +1,17 @@
+curl -X DELETE https://httpbin.org/anything
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.58.0", 
+    "X-Amzn-Trace-Id": "Root=1-5e40a593-2fe4450401145e3e14ad8f35"
+  }, 
+  "json": null, 
+  "method": "DELETE", 
+  "origin": "201.17.211.124", 
+  "url": "https://httpbin.org/anything"
+}

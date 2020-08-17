@@ -1,0 +1,21 @@
+curl -H "content-type: application/json; charset=UTF-8" -X POST -d '{"escola": "Trybe"}' https://httpbin.org/anything
+{
+  "args": {}, 
+  "data": "{\"escola\": \"Trybe\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Content-Length": "19", 
+    "Content-Type": "application/json; charset=UTF-8", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.58.0", 
+    "X-Amzn-Trace-Id": "Root=1-5e40a9c7-c7125498c12b7b669128e0b8"
+  }, 
+  "json": {
+    "escola": "Trybe"
+  }, 
+  "method": "POST", 
+  "origin": "201.17.211.124", 
+  "url": "https://httpbin.org/anything"
+}
