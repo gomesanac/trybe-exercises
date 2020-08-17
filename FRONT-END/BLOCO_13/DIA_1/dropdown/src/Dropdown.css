@@ -1,0 +1,22 @@
+.dropdown-click {
+  background-color: white;
+  border: 1px solid black;
+  height: 20px;
+  width: 50px;
+}
+
+.list-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.open-dropdown {
+  background-color: white;
+  border: 1px solid black;
+  width: 200px;
+}
+
+.close-dropdown {
+  display: none;
+}

@@ -1,0 +1,16 @@
+div {
+  animation: example 2s;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+
+@keyframes example {
+  from {
+    background-color: red;
+  }
+
+  to {
+    background-color: blue;
+  }
+}

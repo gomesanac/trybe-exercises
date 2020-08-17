@@ -1,0 +1,62 @@
+.carta {
+  height: 150px;
+  margin: 10px;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.gira {
+  transition: transform 1s;
+}
+
+.gira:hover {
+  transform: rotate(360deg);
+}
+
+.zoomIn {
+  transition: transform 1s;
+}
+
+.zoomIn:hover {
+  animation: zoomIn 1s;
+}
+
+.zoomOut {
+  transition: transform 1s;
+}
+
+.zoomOut:hover {
+  animation: zoomOut 1s;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoomOut {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

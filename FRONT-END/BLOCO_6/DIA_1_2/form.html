@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="./libs/DatePickerX.min.css">
+    <title>Formulário de Currículo</title>
+</head>
+<body class="card">
+    <header class="card-content">
+        <h1 class="title is-spaced">Formulário Currículo</h1>
+    </header>
+    <form class="card-content" id="form">
+        <fieldset class="field">
+            <section class="field">
+                <label class="label" for="name">Nome Completo</label>
+                <section>
+                    <input class="input valor" id="name" type="text" maxlength="40">
+                </section>
+            </section>
+            <section class="field">
+                <label class="label" for="email">Email</label>
+                <section class="control">
+                    <input class="input valor" id="email" type="text" maxlength="50" placeholder="exemplo@exemplo.com">
+                </section>
+            </section>
+            <section class="field">
+                <label class="label" for="cpf">CPF</label>
+                <section class="control">
+                    <input class="input valor" id="cpf" type="text" maxlength="11">
+                </section>
+            </section>
+            <section class="field">
+                <label class="label" for="endereço">Endereço</label>
+                <section class="control">
+                    <input class="input valor" id="endereço" type="text" maxlength="200">
+                </section>
+            </section>
+            <section class="field">
+                <label class="label" for="cidade">Cidade</label>
+                <section class="control">
+                    <input class="input valor" id="cidade" type="text" maxlength="28">
+                </section>
+            </section>
+            <section class="field">
+                <label class="label" for="estado">Estado</label>
+                <section class="select">
+                    <select class="valor" id="estado"></select>
+                </section>
+            </section>
+            <section>
+                <label class="label">Tipo de moradia:</label>
+                <section class="control">
+                    <label class="radio" for="tipo1">
+                        <input class="radio valor" id="tipo1" type="radio" name="moradia" value="Apartamento"> Apartamento
+                    </label>
+                    <label class="radio" for="tipo2">
+                        <input class="radio valor" id="tipo2" type="radio" name="moradia" value="Casa">
+                        Casa
+                    </label>
+                </section>
+            </section>
+        </fieldset>
+        <fieldset class="field">
+            <section class="field">
+                <label class="label" for="resumo-curriculo">Resumo do currículo</label>
+                <section class="control">
+                    <textarea class="textarea valor" id="resumo-curriculo" maxlength="1000"></textarea>
+                </section>
+            </section>
+            <section class="field">
+                <label class="label" for="cargo">Cargo</label>
+                <section class="control">
+                    <input class="input valor" id="cargo" type="text" maxlength="40">
+                </section>
+            </section>
+            <section class="field">
+                <label class="label" for="descricao-cargo">Descrição do cargo</label>
+                <section class="control">
+                    <input class="input valor" id="descricao-cargo" type="text" maxlength="500">
+                </section>
+            </section>
+            <section class="field">
+                <label class="label" for="data-inicio">Data de início</label>
+                <section class="control">
+                    <input class="input valor" id="data-inicio" type="text" placeholder="dd/mm/aaaa">
+                </section>
+            </section>
+        </fieldset>
+        <button class="button is-success" id="enviar" type="submit">Enviar</button>
+        <button class="button is-danger" id="limpar" type="reset">Limpar</button>
+    </form>
+    <section class="card-content" id="respostas">
+        <h1 class="title is-spaced">Respostas</h1>
+    </section>
+    <script src="./libs/DatePickerX.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

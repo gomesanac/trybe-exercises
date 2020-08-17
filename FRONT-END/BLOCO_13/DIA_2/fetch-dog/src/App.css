@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+.dog-img {
+  border: 1px solid black;
+  margin: 10px;
+  max-height: 50vh;
+  max-width: 50vw;
+}
