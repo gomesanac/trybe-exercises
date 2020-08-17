@@ -1,0 +1,5 @@
+## DESCRIÇÃO DO PROGRAMA
+
+O exercício consista em desenvolver uma página cujo o título é "Soco a 80km/h: Conheça o Stomatopoda", adicionar `links` que representam a àrea de navegação do site (página inicial, sobre e contato). Devia-se então criar um `artigo` e dividi-lo em `seções`, sendo que a primeira `seção` deve conter informações sobre o animal, seu nome científico em itálico e também as informações de classificação científica (Reino, Filo, Subfilo, Classe, Subclasse e Ordem) no formato de uma `tabela`.
+
+As demais `seções` deveriam ser referentes aos fatos sobre o Stomatopoda selecionados, sendo que para cada fato deveria-se criar um `seção` diferente, tendo cada uma delas um `subtítulo` referente ao fato escolhido, sendo necessário também adicionar uma `imagem` para ilustrar cada um desses fatos. Ao final uma `seção` de referências bibliográficas. Adjacente ao artigo deviria ser adicionado um `link` para um vídeo do animal em ação e por último um `rodapé` informando o responsável pela página.
