@@ -1,0 +1,22 @@
+curl -X PUT -d "firstname=Ana" -d "lastname=Gomes" https://httpbin.org/anything
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "firstname": "Ana", 
+    "lastname": "Gomes"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Content-Length": "28", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.58.0", 
+    "X-Amzn-Trace-Id": "Root=1-5e40a54a-ac12100ccfcba0ccf2d9b352"
+  }, 
+  "json": null, 
+  "method": "PUT", 
+  "origin": "201.17.211.124", 
+  "url": "https://httpbin.org/anything"
+}

@@ -1,0 +1,21 @@
+curl -X GET -d "firstname=Ana" https://httpbin.org/anything
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "firstname": "Ana"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Content-Length": "13", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.58.0", 
+    "X-Amzn-Trace-Id": "Root=1-5e40a412-1d93a7b55f454cc86d32f6f6"
+  }, 
+  "json": null, 
+  "method": "GET", 
+  "origin": "201.17.211.124", 
+  "url": "https://httpbin.org/anything"
+}

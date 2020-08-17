@@ -1,0 +1,28 @@
+nmap -sn 192.168.0.27
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-02-09 22:20 -03
+Nmap scan report for ana-Inspiron-3542 (192.168.0.27)
+Host is up (0.00014s latency).
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+sudo nmap -sU 192.168.0.27
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-02-09 22:20 -03
+Nmap scan report for ana-Inspiron-3542 (192.168.0.27)
+Host is up (0.000031s latency).
+Not shown: 997 closed ports
+PORT     STATE         SERVICE
+68/udp   open|filtered dhcpc
+631/udp  open|filtered ipp
+5353/udp open|filtered zeroconf
+
+Nmap done: 1 IP address (1 host up) scanned in 2.82 seconds
+nmap -sT 192.168.0.27
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-02-09 22:21 -03
+Nmap scan report for ana-Inspiron-3542 (192.168.0.27)
+Host is up (0.00014s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.10 seconds
