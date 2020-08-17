@@ -1,0 +1,41 @@
+body {
+    background-color: #400702;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    text-align: justify;
+}
+
+nav {
+    background-color: #A67E5B;
+    border-bottom: 1px solid #F2490C;
+    height: 30px;
+    margin: 0;
+}
+
+.navegacao {
+    color: #400702;
+    display: inline-block;
+    margin: 5px 0;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+header {
+    color: #D9AF62;
+    font-size: 25px;
+    margin-left: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+article {
+    background-color: #A67E5B;
+    border: 1px solid #F2490C;
+    margin: 0 20px 0 20px;
+    padding: 0 10px;
+}
+
+a {
+    color: #A60303;
+    text-decoration: none;
+}

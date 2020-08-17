@@ -1,0 +1,99 @@
+body {
+    background-color: #400702;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    text-align: justify;
+}
+
+nav {
+    background-color: #A67E5B;
+    border-bottom: 1px solid #F2490C;
+    height: 30px;
+    margin: 0;
+}
+
+.navegacao {
+    color: #400702;
+    display: inline-block;
+    margin: 5px 0;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+#inicio {
+    color: #D9AF62;
+    font-size: 25px;
+    margin-left: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#principal {
+    background-color: #A67E5B;
+    border: 1px solid #F2490C;
+    float: left;
+    margin: 0 10px 0 20px;
+    padding: 0 10px;
+    width: 54%;
+}
+
+a {
+    color: #A60303;
+    text-decoration: none;
+}
+
+img {
+    width: 500px;
+}
+
+#aside {
+    background-color: #A67E5B;
+    border: 1px solid #F2490C;
+    float: right;
+    margin: 0 20px 0 10px;
+    padding: 010px;
+    width: 38%;
+}
+
+table {
+    margin: 0 170px 0 160px;
+    text-align: center;
+}
+
+#table {
+    text-align: center;
+}
+
+.video {
+    margin: 0 10px;
+    text-align: center;
+}
+
+iframe {
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+#rodape {
+    color: #D9AF62;
+    clear: both;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* 
+Color Theme Swatches in Hex 
+.color-theme_800px-Odontodactylus_scyllarus1-1-hex { color: #5C91C1; }
+.color-theme_800px-Odontodactylus_scyllarus1-2-hex { color: #D99543; }
+.color-theme_800px-Odontodactylus_scyllarus1-3-hex { color: #F2490C; }
+.color-theme_800px-Odontodactylus_scyllarus1-4-hex { color: #D91807; }
+.color-theme_800px-Odontodactylus_scyllarus1-5-hex { color: #A60303; }
+
+Color Theme Swatches in RGBA 
+.color-theme_800px-Odontodactylus_scyllarus1-1-rgba { color: rgba(92, 145, 193, 1); }
+.color-theme_800px-Odontodactylus_scyllarus1-2-rgba { color: rgba(217, 149, 67, 1); }
+.color-theme_800px-Odontodactylus_scyllarus1-3-rgba { color: rgba(242, 73, 12, 1); }
+.color-theme_800px-Odontodactylus_scyllarus1-4-rgba { color: rgba(217, 24, 7, 1); }
+.color-theme_800px-Odontodactylus_scyllarus1-5-rgba { color: rgba(166, 3, 3, 1); }
+*/
