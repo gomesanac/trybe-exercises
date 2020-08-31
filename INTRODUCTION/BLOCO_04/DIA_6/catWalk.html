@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Cat Walk</title>
+    </head>
+    <body>
+        <img style="position: absolute;" src="http://www.anniemation.com/clip_art/images/cat-walk.gif">
+        
+        <script>
+            let catGif = document.querySelector("img");
+            catGif.style.marginLeft = 0;
+
+            let walk = true;
+
+            let walkLink = "http://www.anniemation.com/clip_art/images/cat-walk.gif";
+            let danceLink = "https://i2.wp.com/desejosdebeleza.com/wp-content/uploads/2014/05/gato-dan%C3%A7ando.gif?resize=400%2C210&ssl=1";
+            
+            function catWalk() {
+                if(walk && (parseInt(catGif.style.marginLeft) > (window.innerWidth - catGif.width))) {
+                    walk = false;
+                };
+
+                if(! walk && (parseInt(catGif.style.marginLeft)  <= 0)) {
+                    walk = true;
+                }
+
+                if(walk) {
+                    catGif.style.marginLeft = parseInt(catGif.style.marginLeft) + 10 + "px";
+                } else {
+                    catGif.style.marginLeft = parseInt(catGif.style.marginLeft) - 10 + "px";
+                };
+            };
+
+            catGif.timer = setInterval(catWalk, 50);
+        </script>
+    </body>
+</html>
