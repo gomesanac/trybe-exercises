@@ -40,11 +40,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
-- [x] 5-1: _[Projeto - Meme Generator](https://gomesanac.github.io/projetos/meme-generator/index.html)_
-- [x] 5-2: _[Projeto - Arte com Pixels](https://gomesanac.github.io/projetos/pixels-art/index.html)_
-- [x] 5-3: _[Projeto - Lista de tarefas](https://gomesanac.github.io/projetos/todo-list/index.html)_
-- [x] 5-4: _[Projeto - Adivinhe a Cor](https://gomesanac.github.io/projetos/color-guess/index.html)_
-- [x] 5-5: _[Projeto - Carta Misteriosa](https://gomesanac.github.io/projetos/mistery-letter/index.html)_
+- [x] 5-1: _[Projeto - Meme Generator](https://gomesanac.github.io/projects/meme-generator/index.html)_
+- [x] 5-2: _[Projeto - Arte com Pixels](https://gomesanac.github.io/projects/pixels-art/index.html)_
+- [x] 5-3: _[Projeto - Lista de tarefas](https://gomesanac.github.io/projects/todo-list/index.html)_
+- [x] 5-4: _[Projeto - Adivinhe a Cor](https://gomesanac.github.io/projects/color-guess/index.html)_
+- [x] 5-5: _[Projeto - Carta Misteriosa](https://gomesanac.github.io/projects/mistery-letter/index.html)_
 
 ## Desenvolvimento Front-end :white_check_mark:
 
